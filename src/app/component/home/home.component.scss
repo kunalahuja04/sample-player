@@ -1,0 +1,28 @@
+.home-component {
+  display: grid;
+  place-items: center;
+
+  .card {
+    padding: 10px;
+    display: flex;
+
+    cursor: pointer;
+
+    .card-body {
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+
+      img {
+        border-radius: 20%;
+        vertical-align: top;
+      }
+
+    }
+
+  }
+
+  .card:nth-child(2) {
+    margin-top: 20px;
+  }
+}

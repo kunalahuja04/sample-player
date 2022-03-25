@@ -1,0 +1,78 @@
+.music-wave {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+
+  .wrapper {
+    width: 90vw;
+
+    #waveform {
+      wave {
+        border-right: 0;
+      }
+    }
+  }
+
+  .controls {
+    display: flex;
+    place-content: center;
+
+    button {
+      margin: 0 10px;
+      cursor: pointer;
+      background: #5E5DF0;
+      border-radius: 999px;
+      box-shadow: #5E5DF0 0 10px 20px -10px;
+      box-sizing: border-box;
+      cursor: pointer;
+      font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      opacity: 1;
+      outline: 0 solid transparent;
+      padding: 8px 18px;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      width: fit-content;
+      word-break: break-word;
+      border: 0;
+
+      svg {
+        -webkit-filter: invert(1);
+        filter: invert(1);
+        margin-top: 5px;
+      }
+    }
+  }
+
+  .home {
+    display: flex;
+    justify-content: center;
+
+    button {
+      margin: 20px 10px;
+      cursor: pointer;
+      background: #5E5DF0;
+      border-radius: 999px;
+      box-shadow: #5E5DF0 0 10px 20px -10px;
+      box-sizing: border-box;
+      cursor: pointer;
+      font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      opacity: 1;
+      outline: 0 solid transparent;
+      padding: 8px 18px;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      width: fit-content;
+      word-break: break-word;
+      border: 0;
+      color: #fff;
+    }
+  }
+}
